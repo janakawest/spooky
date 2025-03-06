@@ -3,10 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
+    <title>You Have Been Hacked</title>
+    <style>
+        body {
+            background-color: black;
+            color: red;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+            padding-top: 100px;
+        }
+        h1 {
+            font-size: 50px;
+            text-shadow: 3px 3px 5px darkred;
+            animation: flicker 1.5s infinite alternate;
+        }
+        @keyframes flicker {
+            0% { opacity: 1; }
+            100% { opacity: 0.7; }
+        }
+        p {
+            font-size: 20px;
+        }
+        .glitch {
+            font-size: 25px;
+            color: #ff0000;
+            text-shadow: 2px 2px 4px #ff0000, -2px -2px 4px #00ff00, 2px -2px 4px #0000ff;
+            animation: glitch 0.3s infinite;
+        }
+        @keyframes glitch {
+            0% { transform: translate(2px, 2px); }
+            25% { transform: translate(-2px, -2px); }
+            50% { transform: translate(2px, -2px); }
+            75% { transform: translate(-2px, 2px); }
+            100% { transform: translate(2px, 2px); }
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My GitHub Page</h1>
-    <p>This is a simple webpage hosted on GitHub.</p>
+    <h1>👁️ YOU HAVE BEEN HACKED 👁️</h1>
+    <p>Thank you very much for letting me in... I now control everything.</p>
+    <p class="glitch">You are the best victim I’ve ever had.</p>
+    <p>Now, just sit back... and watch. 🔥</p>
 </body>
 </html>
